@@ -4,6 +4,32 @@
     <title>Bella Copland - Contact Me</title>
 </head>
 <body>
-    <h1>Contact Me</h1>
+    <h1>Get in touch!</h1>
+
+    <form>
+        <fieldset>
+            <legend>Submit your details here</legend>
+            <label for="firstname">First Name</label>
+            <input id="firstname" type="text">
+            <br>
+            <label for="lastname">Last Name</label>
+            <input id="lastname" type="text">
+            <br>
+            <label for="email">Email</label>
+            <input id="email" type="email">
+            </fieldset>
+
+            <fieldset>
+            <legend>Why are you getting in touch?</legend>
+            <input type="checkbox" value="Employment"> Employment
+            <input type="checkbox" value="New project"> New Project
+            <input type="checkbox" value="Other"> Other
+            <br>
+            <label for="notesforother">If "Other" tell me more here:</label>
+            <textarea id="notes"></textarea>
+            </fieldset>
+
+        <button type="submit">Submit your info</button>
+    </form>
 </body>
 </html>
