@@ -1,10 +1,20 @@
 * {
-    background-color: #c089a5;
+    background-color: #f5e5f0;
 }
 
-
 h1 {
-    color: #fa8253;
+    color: #916953;
+    font-weight: bold;
+}
+
+h2 {
+    color: #CF8E80;
+    font-weight: bold;
+}
+
+h3 {
+    color: #FCB5B5;
+    font-weight: bold;
 }
 
 h3:hover {
@@ -16,5 +26,20 @@ a:visited {
 }
 
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family:"League Spartan", Geneva, Tahoma, sans-serif;
+    width: 75%;
+}
+
+p::first-line {
+    background-color: #FAB3A9;
+    font-style: italic;
+    line-height: 110%;
+}
+
+figure {
+    display: inline-block;
+}
+
+nav {
+    position: fixed;
 }
