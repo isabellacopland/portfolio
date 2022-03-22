@@ -30,6 +30,10 @@ body {
     width: 75%;
 }
 
+figure {
+    display: inline-block;
+}
+
 p::first-line {
     background-color: #FAB3A9;
     font-style: italic;
@@ -43,3 +47,17 @@ figure {
 nav {
     position: fixed;
 }
+
+.div-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: red;
+ }
+ .span-element {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    display: inline-block;
+ }
